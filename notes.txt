@@ -1,0 +1,81 @@
+---Concatonation
+
+The concat() method joins two or more strings.
+
+"a" + "b" = "ab"
+
+var w = "cd"
+        d      c
+var x = w[1] + w[0] //"dc"
+
+var newW = w[i] + newW
+
+
+---Pushing and popping
+
+var str ="we ran" 
+var strSplit = str.split(" ") 
+var words = ["we "," ran "] 
+
+words.push(strSplit[0]) 
+words.push(strSplit[1]) 
+
+console.log(words.pop()) 
+console.log(words.pop())
+
+
+---Traditional Loops
+
+Backwards
+for (var i = array.length-1; i >= 0; i--) { 
+    console.log(array[i])
+}
+
+Forwards
+for (var i = 0; i < array.length; i++) { 
+    console.log(array[i])
+}
+
+p0 initialization: var i = 0
+p1 conditional: i < array.length
+p2 body: { ... }
+p3 inc/dec: i ++
+
+first iteration: p0, p1, p2, p3
+p1, p2, p3
+p1, p2, p3
+...
+last iteration: p1
+
+---Function---
+function add(x, y) {
+    // write var for each parameter 
+    // var x = (value passed in for x)
+    // var y = (        "       for y)
+
+    return x + y
+}
+add(1, 2) 
+---Habits in need of Adjustment
+
+1. Align code, ALIGNMENT.
+2. Write 1 comment per goal, 
+3. Write 1 line of code,  
+4. Select more sensible and straight forward descriptive variables,
+5. Change all variables with F2
+6. test in debugger, 
+7. Use all developer's tool controls when stepping thru code
+8. start process all over 
+9. variable must exist before use, unless a variable is declared within a function, it does not exist outside that function  
+10. A function must return something
+11. 
+12. Code executes in the same order a page in a book is read 
+13. Use sketch pad and pencil to draw out what your code is doing and what you want it to do.
+
+You have to know what your code is doing
+
+
+
+
+
+
