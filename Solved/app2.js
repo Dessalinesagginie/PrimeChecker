@@ -15,19 +15,23 @@ function checkPrimeNumber(number){
 
 }
 
-function isPrime(number) {
-  if (number <= 1) return false; // 0 and 1 are not prime numbers
-  for (var i = 2; i <= Math.sqrt(number); i++) {
-    var rem = Math.sqrt(number)
-    if (number % i === 0) {
-      return false; // Found a divisor, not a prime
-    }
-  }
-  return true; // No divisors found, it is prime
-}
+// Math.sqrt function in JavaScript is used to calculate the square root of a given number. 
 
-checkPrimeNumber(7)
-isPrime(8)
+// JavaScript Syntax
+// Math.sqrt(x)
+
+// Parameters
+// x: A number for which you want to calculate the square root. If x is negative, Math.sqrt returns NaN (Not a Number).
+// Returns
+// The square root of the number x.
+
+// console.log(Math.sqrt(25)); // Output: 5
+// console.log(Math.sqrt(2));   // Output: 1.4142135623730951
+// console.log(Math.sqrt(-9));  // Output: NaN
+// Use in Prime Check
+// In the context of the prime number check, Math.sqrt(n) is used to limit the range of numbers to check for factors. 
+// A number n cannot have a divisor greater than its square root that isn't also a smaller divisor, making the algorithm more efficient.
+
 
 //% operator in JavaScript (and other languages)--Modulus Operator. 
 //calculates the remainder of the division of one number by another.

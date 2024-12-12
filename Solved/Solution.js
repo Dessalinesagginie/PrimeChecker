@@ -1,24 +1,11 @@
-function chckNumber(number){
-
-} for (var i = 2; 
-  i < number; 
-  i++) {
-    if(number % i){
-    }
-  }
-
-  for (var i = 0; 
-    i < array.length; 
-    i++) { 
-    // console.log(array[i])
-}
+// Prime Checker: SOLUTION
+// =======================
 
 // Declare our primeCheck function
 function primeCheck(number) {
 
   // Loop to check to see if a number has divisors other than one and itself.
   // Note: Loops from two to one less than the number we're checking.
-
   for (var i = 2; i < number; i++) {
 
     // If the number is evenly divisible
@@ -35,4 +22,3 @@ function primeCheck(number) {
   // even if it has a divisor other than one and itself.
   return number > 1;
 }
-primeChec(17)
