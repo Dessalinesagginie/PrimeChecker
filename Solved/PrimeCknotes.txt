@@ -1,0 +1,29 @@
+Things Learned During Exercise
+
+function primeCheck(n) {    
+    if (n <= 2 ) { 
+        return false
+    }
+
+    for (let i = 2; i < n; i++) {
+        var temp = n % i
+
+        if (n % i === 0) {
+            return false
+        }   
+    }
+  
+    return true
+}
+
+console.log(primeCheck(7))
+
+1. Read, understand, and follow instructions carfully
+
+2. plan strategy for how to solve issue before you start writing code
+
+3. write 1 comment and 1 line of code then debug that line 
+
+4. understand what code is doing
+
+5. if using a loop, know exactly what each loop section is doing
